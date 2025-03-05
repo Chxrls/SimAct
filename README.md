@@ -1,13 +1,15 @@
 The code consists of the procedural program to solve salary deductions without using object-oriented programming (OOP) concepts like classes or objects. #cagampang & colegado
 
 1. Technical Debt Identified
+   
 Hard-Coded Constants: Constants like SSS_DEDUCTION, PHILHEALTH_RATE, PAGIBIG_CONTRIBUTION, and INCOME_TAX are hardcoded in the script. 
 This creates a lack of flexibility for changes and maintenance, as modifications would require changes directly in the code rather than external configuration.
 Duplication: The logic for calculating different deductions (SSS, PhilHealth, Pag-IBIG, and tax) is somewhat redundant, making the code harder to extend in the future.
 No Modularity: Functions are somewhat scattered, and there is room for improving their clarity and structure.
 
 
-2. Refactoring Improvements Made
+3. Refactoring Improvements Made
+   
 Parameterization:Refactored the functions to allow for a more dynamic approach.
 **For example, the calculate_philhealth_contribution could use a parameterized rate, and calculate_income_tax could be adjusted to accept varying rates based on the salary brackets.**
 
