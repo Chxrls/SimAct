@@ -35,11 +35,11 @@ This project is a Salary Deduction Calculator that computes various deductions f
 
 ## Challenges Faced & Solutions
 
-Implemented a while loop with try-except to ensure only valid numerical input is accepted.
+1. Implemented a while loop with try-except to ensure only valid numerical input is accepted.
 
-Maintained clarity in function naming while keeping computations simple.
+2. Maintained clarity in function naming while keeping computations simple.
 
-Used Python's built-in string formatting for a clean and professional display of salary details.
+3. Used Python's built-in string formatting for a clean and professional display of salary details.
 
 
 
