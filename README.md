@@ -1,3 +1,48 @@
+# Technical Debt Management Activity
+
+## Overview
+
+This project is a Salary Deduction Calculator that computes various deductions from an employee's salary, such as SSS, PhilHealth, Pag-IBIG, and income tax. The refactored version improves code readability, modularity, and maintainability while addressing technical debt issues.
+
+## Refactoring Changes
+
+### As for our role the Refactoring Specialists(Antinero,Tarre) we focused on improving code readability through better naming conventions and formatting. The key refactoring improvements include:
+
+1. Renamed functions and variables to be more descriptive and consistent.
+
+2. Ensured that each calculation was handled in separate, reusable functions.
+
+3. Constants were defined for better maintainability.
+
+4. Implemented input validation to handle invalid salary inputs.
+
+5. Improved print statements for better readability.
+
+## Technical Debt Identified
+
+### Before refactoring, the code had the following issues:
+
+1. Some function names were unclear or inconsistent.
+
+2. Some calculations were embedded directly in the main logic instead of separate functions.
+
+3. Deduction amounts and tax rates were hardcoded, making updates difficult.
+
+4. The program did not properly handle invalid user inputs.
+
+5. Certain calculations lacked proper reuse, making the code less efficient.
+   
+
+## Challenges Faced & Solutions
+
+Implemented a while loop with try-except to ensure only valid numerical input is accepted.
+
+Maintained clarity in function naming while keeping computations simple.
+
+Used Python's built-in string formatting for a clean and professional display of salary details.
+
+
+
 The code consists of the procedural program to solve salary deductions without using object-oriented programming (OOP) concepts like classes or objects. #cagampang & colegado
 
 1. Technical Debt Identified
