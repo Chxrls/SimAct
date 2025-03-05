@@ -1,16 +1,16 @@
-def calculate_sss():
+def calculate_sss(): #sss
     return 1200
 
-def calculate_philhealth(salary):
+def calculate_philhealth(salary): #philhealth
     return (salary * 0.05) / 2
 
-def calculate_pagibig():
+def calculate_pagibig(): #pag-ibig
     return 100
 
-def calculate_tax():
+def calculate_tax(): #tax
     return 1875
 
-def compute_deductions(salary):
+def compute_deductions(salary): #salary computations
     sss = calculate_sss()
     philhealth = calculate_philhealth(salary)
     pagibig = calculate_pagibig()
