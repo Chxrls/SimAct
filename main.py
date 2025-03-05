@@ -31,16 +31,17 @@ def calculate_deductions(salary):
 
     return sss, philhealth, pagibig, tax, deductions, net_salary
 
+
 def main():
     """Main function to handle user input and display salary details."""
-    while True:
+    while(True):
         try:
             salary = float(input("Enter your monthly salary: "))
-            if salary >= 0:
-                break
-            else:
-                print("Salary must be a positive number. Please try again.")
-        except ValueError:
+            if salary <= 0:
+                print("Invalid input. Salary must be greater than zero.")
+                continue
+            break
+        except:
             print("Invalid input. Please enter a valid number.")
 
     sss, philhealth, pagibig, tax, deductions, net_salary = calculate_deductions(salary)
