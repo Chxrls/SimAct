@@ -43,7 +43,8 @@ Used Python's built-in string formatting for a clean and professional display of
 
 
 
-The code consists of the procedural program to solve salary deductions without using object-oriented programming (OOP) concepts like classes or objects. #cagampang & colegado
+
+## The code consists of the procedural program to solve salary deductions without using object-oriented programming (OOP) concepts like classes or objects. (Cagampang & Colegado)
 
 1. Technical Debt Identified
    
