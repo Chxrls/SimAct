@@ -1,6 +1,6 @@
 ## PROJECT CONTRIBUTORS
 
-1. Charls Ruje Melindo - Lead Developer / 
+1. Charls Ruje Melindo - Lead Developer 
 2. Keanu Erm C. Tarre - Manages Git operations / **Documentations**
 3. Noelle Bryan B. Antinero - Identifies technical debt and suggests improvements / **Input validation**
 4. Stephen Carl Cagampang - Manages Git operations / **ReadME**
