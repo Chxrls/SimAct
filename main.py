@@ -53,5 +53,4 @@ def main():
     print(f"Total Deductions: ₱{deductions:,.2f}")
     print(f"Net Salary: ₱{net_salary:,.2f}")
 
-if __name__ == "__main__":
-    main()
+main()
