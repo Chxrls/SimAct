@@ -4,7 +4,7 @@
 2. Keanu Erm C. Tarre - Manages Git operations / **Documentations**
 3. Noelle Bryan B. Antinero - Identifies technical debt and suggests improvements / **Input validation**
 4. Stephen Carl Cagampang - Manages Git operations / **ReadME**
-5. Carl Jurie Collegado - Identifies technical debt and suggests improvements / **Error Handling**
+5. Carl Jurie Collegado - Identifies technical debt and suggests improvements / **Error handling**
 6. Van Wesley l. Amper - Writes test cases and updates documentation / **Written the brief report**
 
 # Technical Debt Management Activity
